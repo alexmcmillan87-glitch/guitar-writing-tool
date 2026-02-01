@@ -1,0 +1,39 @@
+.genre-selector {
+  background-color: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.genre-selector h3 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.genre-dropdown {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #667eea;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.genre-dropdown:hover {
+  border-color: #764ba2;
+}
+
+.genre-dropdown:focus {
+  outline: none;
+  border-color: #764ba2;
+  box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.2);
+}
+
+.selected-genre {
+  margin-top: 1rem;
+  color: #667eea;
+  font-weight: bold;
+}
